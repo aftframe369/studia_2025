@@ -1,0 +1,560 @@
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15LbpOc4n0
+  Yc25D8HistPerc50
+  Yc25D8GradVariance
+  Yc25D8GlcmV1DifEntrp
+  Yc25LbpCs8n9
+  Yc15D8HistDomn10
+Confusion matrix of t_21_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	50	950	997	3	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistDomn10
+  Yc25D8GlcmV1DifEntrp
+  Yc25LbpCs8n10
+  Yc15D8GlcmH1InvDfMom
+  Yc25D8GradMean
+  Yc25D8GlcmV1AngScMom
+Confusion matrix of t_21_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	
+0	0	3	997	1000	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8GradVariance
+  Yc25D8GlcmH1SumAverg
+  Yc25LbpCs8n4
+  Yc15D8HistDomn01
+  Yc25LbpOc4n12
+  Yc15D8HistDomn10
+Confusion matrix of t_22_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	28	972	996	4	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15LbpOc4n12
+  Yc25D8GradVariance
+  Yc25D8ArmSigma
+  Yc25D8GlcmH1SumAverg
+  Yc25D8GlcmV1DifEntrp
+  Yc25D8HistMean
+Confusion matrix of t_22_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	7	993	998	2	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistDomn10
+  Yc25D8HogO8b0
+  Yc25LbpCs8n3
+  Yc25D8GrlmHGLevNonUn
+  Yc25D8GlcmH1Contrast
+  Yc25LbpCs8n9
+Confusion matrix of t_23_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	329	671	998	2	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15LbpCs8n11
+  Yc25D8HistPerc90
+  Yc25D8HistMaxm10
+  Yc25D8ArmSigma
+  Yc25D8GrlmVRLNonUni
+  Yc25D8GlcmH1Entropy
+Confusion matrix of t_23_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	347	653	997	3	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistDomn10
+  Yc25D8GradMean
+  Yc25D8GradVariance
+  Yc25D8HogO8b4
+  Yc25LbpCs8n10
+  Yc25D8ArmTeta4
+Confusion matrix of t_24_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	8	992	998	2	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8GlcmH1DifEntrp
+  Yc25D8HogO8b1
+  Yc25D8HistKurtosis
+  Yc25D8HistPerc90
+  Yc25D8GradMean
+  Yc25D8HogO8b4
+Confusion matrix of t_24_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	
+0	0	1	999	1000	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistDomn10
+  Yc25D8GlcmH1InvDfMom
+  Yc25LbpCs8n1
+  Yc25LbpCs8n4
+  Yc25LbpCs8n3
+  Yc25LbpCs8n13
+Confusion matrix of t_25_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	54	946	998	2	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistDomn10
+  Yc25D8GlcmV1Contrast
+  Yc25D8GlcmV1DifVarnc
+  Yc25D8HogO8b6
+  Yc25LbpOc4n5
+  Yc15LbpCs8n1
+Confusion matrix of t_25_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	198	802	995	5	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistPerc50
+  Yc15D8GradVariance
+  Yc15D8GrlmHGLevNonUn
+  Yc25LbpCs8n5
+  Yc15D8GlcmV1Contrast
+  Yc25D8GlcmH1DifVarnc
+Confusion matrix of t_31_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	
+0	0	136	864	1000	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8HistPerc50
+  Yc25D8GlcmH1AngScMom
+  Yc25D8GlcmV1DifVarnc
+  Yc25D8HogO8b6
+  Yc25LbpOc4n0
+  Yc15D8HistPerc10
+Confusion matrix of t_31_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	224	776	991	9	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8HistPerc50
+  Yc25D8GlcmV1SumEntrp
+  Yc25D8GlcmV1DifVarnc
+  Yc25D8GlcmV1DifEntrp
+  Yc25LbpCs8n0
+  Yc25D8GlcmH1Contrast
+Confusion matrix of t_31_post_24h.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	280	720	997	3	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8HistPerc50
+  Yc25D8GlcmV1Contrast
+  Yc25D8GlcmV1DifEntrp
+  Yc25LbpOc4n12
+  Yc25LbpOc4n15
+  Yc25D8HogO8b3
+Confusion matrix of t_32_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	292	708	994	6	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistDomn10
+  Yc25D8GrlmVGLevNonUn
+  Yc25LbpOc4n15
+  Yc25LbpCs8n8
+  Yc25D8HistVariance
+  Yc25LbpCs8n7
+Confusion matrix of t_32_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	208	792	992	8	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8GradMean
+  Yc25LbpCs8n3
+  Yc25D8GlcmH1AngScMom
+  Yc15D8HistPerc50
+  Yc25D8GlcmV1Contrast
+  Yc25D8GlcmV1DifVarnc
+Confusion matrix of t_32_post_24h.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	265	735	996	4	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8GrlmHRLNonUni
+  Yc25LbpCs8n2
+  Yc25LbpCs8n7
+  Yc15D8GrlmHMGLevNonUn
+  Yc7D8HistDomn10
+  Yc7D8GlcmV1Correlat
+Confusion matrix of t_33_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	300	700	994	6	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistDomn10
+  Yc15D8GrlmVGLevNonUn
+  Yc25D8HogO8b4
+  Yc25LbpCs8n5
+  Yc25D8GlcmH1AngScMom
+  Yc25D8GlcmH1Contrast
+Confusion matrix of t_33_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	348	652	998	2	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8ArmSigma
+  Yc25D8GlcmV1DifVarnc
+  Yc25D8GlcmV1DifEntrp
+  Yc15D8HistPerc50
+  Yc25D8GlcmH1Correlat
+  Yc15D8GrlmVGLevNonUn
+Confusion matrix of t_33_post_24h.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	286	714	999	1	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc7D8HistPerc50
+  Yc15D8GradMean
+  Yc25LbpCs8n7
+  Yc15D8GrlmVGLevNonUn
+  Yc15D8GlcmV1Correlat
+  Yc15D8GlcmV1SumAverg
+Confusion matrix of t_34_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	258	742	987	13	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistPerc50
+  Yc15D8HistMaxm10
+  Yc25D8ArmTeta2
+  Yc25D8GlcmH1Contrast
+  Yc25D8HogO8b4
+  Yc25D8HistPerc50
+Confusion matrix of t_34_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	251	749	990	10	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8GlcmV1Contrast
+  Yc25LbpOc4n0
+  Yc25D8GrlmVGLevNonUn
+  Yc25D8GlcmV1DifEntrp
+  Yc25D8HistPerc50
+  Yc25D8GlcmH1Contrast
+Confusion matrix of t_34_post_24h.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	436	564	996	4	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8GradMean
+  Yc25D8GradVariance
+  Yc25D8GlcmH1SumAverg
+  Yc25D8GlcmV1Correlat
+  Yc25D8GlcmV1DifEntrp
+  Yc25D8HistPerc50
+Confusion matrix of t_35_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	282	718	996	4	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8HistPerc50
+  Yc25D8GlcmV1AngScMom
+  Yc25D8GrlmHGLevNonUn
+  Yc25D8GlcmV1SumEntrp
+  Yc25D8GlcmH1AngScMom
+  Yc25D8GlcmH1Contrast
+Confusion matrix of t_35_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	139	861	998	2	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8GlcmV1SumAverg
+  Yc25D8HistPerc99
+  Yc25D8HistDomn10
+  Yc25D8GlcmV1SumVarnc
+  Yc25D8GlcmH1SumEntrp
+  Yc15D8HistPerc50
+Confusion matrix of t_35_post_24h.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	362	638	997	3	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8GlcmH1SumOfSqs
+  Yc25D8HogO8b3
+  Yc15D8HistPerc50
+  Yc15D8GlcmV1SumEntrp
+  Yc25LbpOc4n0
+  Yc15D8GlcmH1AngScMom
+Confusion matrix of t_41_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	300	700	989	11	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc7D8GlcmV1Correlat
+  Yc15D8HistPerc50
+  Yc25D8GlcmV1Contrast
+  Yc25D8GlcmV1DifEntrp
+  Yc15D8GrlmHGLevNonUn
+  Yc25D8GlcmV1DifVarnc
+Confusion matrix of t_41_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	378	622	996	4	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistMaxm10
+  Yc15D8GrlmVGLevNonUn
+  Yc25D8GlcmH1DifVarnc
+  Yc25LbpOc4n15
+  Yc7D8GlcmV1Correlat
+  Yc15D8HistDomn10
+Confusion matrix of t_41_post_24h.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	332	668	984	16	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8HistDomn10
+  Yc25D8GradMean
+  Yc25LbpOc4n0
+  Yc15D8GrlmHGLevNonUn
+  Yc15D8GlcmH1SumOfSqs
+  Yc15D8GrlmVMGLevNonUn
+Confusion matrix of t_42_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	88	912	999	1	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistSkewness
+  Yc15D8HogO8b3
+  Yc25D8HistMean
+  Yc25D8ArmSigma
+  Yc25D8GlcmH1Entropy
+  Yc15LbpCs8n3
+Confusion matrix of t_42_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	80	920	999	1	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc7D8HistPerc50
+  Yc25D8HistDomn01
+  Yc25D8HistMaxm10
+  Yc25LbpOc4n15
+  Yc25LbpCs8n0
+  Yc25D8GlcmH1Contrast
+Confusion matrix of t_42_post_24h.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	
+0	0	29	971	1000	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8GradVariance
+  Yc15D8GlcmV1Correlat
+  Yc25LbpCs8n3
+  Yc15D8HistDomn10
+  Yc25D8GlcmV1InvDfMom
+  Yc25D8GrlmVRLNonUni
+Confusion matrix of t_43_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	382	618	991	9	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistPerc50
+  Yc25D8GlcmH1Contrast
+  Yc25D8GlcmV1Correlat
+  Yc25D8GlcmV1SumOfSqs
+  Yc25D8GlcmV1DifEntrp
+  Yc25D8HistVariance
+Confusion matrix of t_43_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	483	517	998	2	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8GlcmH1DifEntrp
+  Yc25D8GlcmV1Correlat
+  Yc15D8HistDomn10
+  Yc25D8GlcmV1Contrast
+  Yc25D8GlcmV1DifEntrp
+  Yc25LbpOc4n0
+Confusion matrix of t_43_post_24h.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	333	667	994	6	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8GlcmV1Correlat
+  Yc25D8GlcmV1SumOfSqs
+  Yc25D8GlcmV1DifEntrp
+  Yc25LbpCs8n9
+  Yc25D8HistPerc50
+  Yc25LbpCs8n10
+Confusion matrix of t_44_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	401	599	997	3	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8HistDomn10
+  Yc25LbpOc4n0
+  Yc25LbpCs8n0
+  Yc25LbpCs8n7
+  Yc25D8GradVariance
+  Yc25D8GlcmV1AngScMom
+Confusion matrix of t_44_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	137	863	997	3	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistPerc50
+  Yc15D8GlcmV1Contrast
+  Yc25D8HistPerc10
+  Yc25D8GrlmHGLevNonUn
+  Yc25D8GlcmH1AngScMom
+  Yc25D8ArmSigma
+Confusion matrix of t_44_post_24h.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	193	807	998	2	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc7D8GrlmHGLevNonUn
+  Yc25D8HistDomn10
+  Yc25D8GlcmV1AngScMom
+  Yc25D8GlcmV1Entropy
+  Yc15D8GlcmH1SumAverg
+  Yc25D8GlcmV1SumEntrp
+Confusion matrix of t_45_baseline.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	193	807	998	2	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc15D8HistDomn10
+  Yc25D8GrlmVRLNonUni
+  Yc25D8GlcmH1SumEntrp
+  Yc25D8GlcmV1DifVarnc
+  Yc25LbpOc4n0
+  Yc25D8GrlmHMGLevNonUn
+Confusion matrix of t_45_post_15min.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	147	853	998	2	
+Classifier: MzVschClassifiers2023
+Classes:
+  0 !
+  1 tumour
+Features required:
+  Yc25D8HistPerc50
+  Yc25D8GlcmH1SumVarnc
+  Yc25D8GlcmV1AngScMom
+  Yc25LbpOc4n15
+  Yc25D8GlcmV1SumOfSqs
+  Yc25D8GlcmV1Correlat
+Confusion matrix of t_45_post_24h.csv
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+0	0	253	747	994	6	

@@ -1,0 +1,600 @@
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc7D8GlcmV1DifEntrp
+  Yc15D8GlcmV1SumEntrp
+  Yc15D8GlcmV1Entropy
+  Yc25D8GradSkewness
+  Yc25D8HogO8b7
+  Yc7LbpCs8n14
+Confusion matrix of t_21_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	914	86	0	92	908	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc7D8GlcmV1DifEntrp
+  Yc15D8HistPerc10
+  Yc15D8GradNonZeros
+  Yc25D8GlcmH1DifVarnc
+  Yc25LbpCs8n7
+  Yc25LbpOc4n7
+Confusion matrix of t_21_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	970	30	0	36	964	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc7D8HistMaxm10
+  Yc15D8HistPerc01
+  Yc25D8ArmTeta2
+  Yc25D8GrlmHFraction
+  Yc25D8GrlmHMRLNonUni
+  Yc25D8GrlmHLngREmph
+Confusion matrix of t_22_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	955	45	0	63	937	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc25D8HistSkewness
+  Yc25D8ArmSigma
+  Yc25D8GrlmVMRLNonUni
+  Yc25D8GlcmH1Entropy
+  Yc7D8GlcmH1DifEntrp
+  Yc25D8GlcmH1DifEntrp
+Confusion matrix of t_22_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	957	43	0	25	975	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc25D8HistMaxm10
+  Yc25D8ArmTeta4
+  Yc25LbpCs8n9
+  Yc15D8GlcmV1SumEntrp
+  Yc15D8GlcmV1Entropy
+  Yc25D8HistMean
+Confusion matrix of t_23_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	907	93	0	80	920	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15LbpCs8n11
+  Yc25D8HistPerc90
+  Yc25D8GrlmVMGLevNonUn
+  Yc25D8GlcmH1Entropy
+  Yc15LbpCs8n5
+  Yc25D8HistMaxm10
+Confusion matrix of t_23_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	932	68	0	43	957	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc7D8HistPerc90
+  Yc15LbpCs8n9
+  Yc25LbpCs8n10
+  Yc7D8ArmSigma
+  Yc25LbpCs8n14
+  Yc7LbpCs8n14
+Confusion matrix of t_24_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	922	78	0	57	943	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8ArmSigma
+  Yc25D8HogO8b7
+  Yc25LbpOc4n4
+  Yc25LbpCs8n12
+  Yc25LbpCs8n13
+  Yc15LbpCs8n8
+Confusion matrix of t_24_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	971	29	0	32	968	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc7D8HistPerc99
+  Yc25D8HistPerc01
+  Yc25D8GlcmH1Correlat
+  Yc25D8GlcmH1Entropy
+  Yc25LbpOc4n5
+  Yc7D8GlcmH1DifEntrp
+Confusion matrix of t_25_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	899	101	0	70	930	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc7D8GlcmH1DifEntrp
+  Yc25D8GradSkewness
+  Yc25D8ArmSigma
+  Yc25D8GlcmV1SumEntrp
+  Yc25LbpCs8n12
+  Yc25D8HistSkewness
+Confusion matrix of t_25_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	928	72	0	76	924	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc25LbpCs8n9
+  Yc25D8GlcmV1InvDfMom
+  Yc25D8HistMaxm01
+  Yc25D8GlcmH1SumEntrp
+  Yc25D8GlcmV1Entropy
+  Yc7D8ArmSigma
+Confusion matrix of t_31_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	912	88	0	86	914	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc25D8HistPerc10
+  Yc25LbpCs8n2
+  Yc25LbpCs8n7
+  Yc7D8HistPerc99
+  Yc25D8DwtHaarS1LH
+  Yc25D8DwtHaarS2LH
+Confusion matrix of t_31_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	913	87	0	109	891	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc25D8HistPerc10
+  Yc25D8HistPerc90
+  Yc25LbpOc4n7
+  Yc25LbpCs8n3
+  Yc25LbpCs8n5
+  YD8Gab8Z16Mag
+Confusion matrix of t_31_post_24h.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	870	130	0	71	929	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8GlcmV1SumEntrp
+  Yc15D8GlcmV1Entropy
+  Yc25D8HistPerc10
+  Yc25D8GrlmHLngREmph
+  Yc25LbpCs8n9
+  Yc25LbpOc4n2
+Confusion matrix of t_32_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	913	87	0	111	889	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc25LbpOc4n9
+  Yc25LbpCs8n3
+  Yc25LbpCs8n11
+  Yc15D8HistPerc01
+  Yc25D8HistPerc90
+  Yc25LbpOc4n2
+Confusion matrix of t_32_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	923	77	0	86	914	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc25LbpOc4n9
+  Yc25LbpOc4n15
+  Yc25LbpCs8n0
+  Yc25LbpCs8n3
+  Yc15D8GlcmV1Entropy
+  Yc15D8GlcmH1SumEntrp
+Confusion matrix of t_32_post_24h.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	936	64	0	76	924	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc7D8HistSkewness
+  Yc7D8HistPerc90
+  Yc15D8HistPerc10
+  Yc25LbpCs8n7
+  Yc25D8HistMaxm10
+  Yc25D8HistPerc01
+Confusion matrix of t_33_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	923	77	0	85	915	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8HistPerc01
+  Yc15D8ArmTeta1
+  Yc15D8GlcmH1SumEntrp
+  Yc15D8GlcmH1Entropy
+  Yc25D8HistMaxm10
+  Yc25D8DwtHaarS3LH
+Confusion matrix of t_33_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	912	88	0	77	923	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc7D8HistSkewness
+  Yc15D8HistPerc01
+  Yc15LbpCs8n7
+  Yc25D8DwtHaarS3LH
+  Yc25LbpCs8n3
+  YD8Gab8V16Mag
+Confusion matrix of t_33_post_24h.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	923	77	0	65	935	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8GlcmV1Entropy
+  Yc25D8HistPerc01
+  Yc25LbpCs8n0
+  Yc25LbpCs8n13
+  Yc15D8GlcmV1SumEntrp
+  Yc15LbpOc4n15
+Confusion matrix of t_34_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	907	93	0	83	917	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc25D8GlcmH1SumEntrp
+  Yc25D8GlcmH1Entropy
+  Yc25D8GlcmV1Entropy
+  Yc25LbpOc4n10
+  Yc25LbpOc4n15
+  YD8Gab8V16Mag
+Confusion matrix of t_34_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	942	58	0	81	919	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc7D8HistSkewness
+  Yc25D8HistPerc10
+  Yc25D8DwtHaarS2LH
+  Yc25LbpCs8n3
+  Yc25LbpCs8n8
+  Yc25D8GrlmVRLNonUni
+Confusion matrix of t_34_post_24h.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	922	78	0	78	922	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8HistPerc01
+  Yc25D8DwtHaarS3LH
+  Yc25LbpCs8n3
+  Yc25LbpCs8n12
+  Yc25LbpCs8n13
+  Yc15D8ArmSigma
+Confusion matrix of t_35_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	901	99	0	105	895	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc7D8ArmSigma
+  Yc25D8HistPerc10
+  Yc25LbpCs8n5
+  Yc25LbpCs8n7
+  Yc25D8DwtHaarS3LH
+  Yc25LbpOc4n10
+Confusion matrix of t_35_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	900	100	0	107	893	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc25D8HistPerc10
+  Yc25D8HistPerc90
+  Yc25LbpOc4n5
+  Yc25LbpOc4n15
+  Yc25LbpCs8n0
+  Yc25LbpCs8n9
+Confusion matrix of t_35_post_24h.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	905	95	0	143	857	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8GlcmV1SumEntrp
+  Yc15D8GlcmV1Entropy
+  Yc15LbpCs8n10
+  Yc25D8HistPerc01
+  Yc25LbpCs8n13
+  Yc25LbpCs8n4
+Confusion matrix of t_41_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	917	83	0	125	875	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8GlcmV1SumEntrp
+  Yc15D8GlcmV1Entropy
+  Yc15LbpCs8n11
+  Yc25D8HistPerc10
+  Yc25LbpCs8n13
+  Yc7D8HistPerc99
+Confusion matrix of t_41_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	919	81	0	93	907	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8GlcmV1SumEntrp
+  Yc15D8GlcmV1Entropy
+  Yc25D8HistPerc01
+  Yc25LbpCs8n9
+  Yc25LbpCs8n11
+  Yc25D8GlcmH1AngScMom
+Confusion matrix of t_41_post_24h.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	886	114	0	122	878	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc7D8HistPerc99
+  Yc25D8HistPerc01
+  Yc25D8GlcmH1SumEntrp
+  Yc25D8GlcmV1InvDfMom
+  Yc25D8GlcmV1Entropy
+  Yc25LbpCs8n7
+Confusion matrix of t_42_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	896	104	0	102	898	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc25D8HistMaxm10
+  Yc25D8GlcmH1SumEntrp
+  Yc25D8GlcmV1DifEntrp
+  Yc25LbpOc4n7
+  Yc25LbpCs8n13
+  Yc25D8DwtHaarS3LH
+Confusion matrix of t_42_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	981	19	0	21	979	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc25D8HistPerc01
+  Yc25LbpOc4n12
+  Yc25LbpCs8n8
+  Yc25LbpCs8n9
+  Yc15D8ArmSigma
+  Yc15D8GlcmV1Correlat
+Confusion matrix of t_42_post_24h.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	893	107	0	81	919	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8GlcmV1SumEntrp
+  Yc15D8GlcmV1Entropy
+  Yc25LbpCs8n2
+  Yc25LbpCs8n3
+  Yc25D8HistPerc10
+  Yc7D8HistPerc90
+Confusion matrix of t_43_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	893	107	0	98	902	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8GlcmV1AngScMom
+  Yc15D8GlcmV1Entropy
+  Yc25LbpCs8n2
+  Yc15D8GlcmH1SumEntrp
+  Yc25D8ArmTeta1
+  Yc25D8DwtHaarS3LH
+Confusion matrix of t_43_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	833	167	0	121	879	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8GlcmH1SumEntrp
+  Yc15D8GlcmV1AngScMom
+  Yc15D8GlcmV1Entropy
+  Yc25D8GrlmVFraction
+  Yc25LbpCs8n13
+  YD8Gab8N16Mag
+Confusion matrix of t_43_post_24h.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	913	87	0	91	909	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8HistPerc10
+  Yc25LbpCs8n2
+  Yc25LbpCs8n3
+  YD8Gab8Z16Mag
+  Yc25D8GlcmV1SumEntrp
+  Yc25D8GlcmV1Entropy
+Confusion matrix of t_44_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	925	75	0	88	912	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8HistPerc10
+  Yc25D8GlcmH1SumEntrp
+  Yc25D8GlcmV1Entropy
+  Yc25LbpCs8n2
+  Yc25LbpCs8n3
+  Yc25D8DwtHaarS2LH
+Confusion matrix of t_44_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	942	58	0	77	923	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8HistPerc10
+  Yc25D8HistPerc10
+  Yc25LbpCs8n3
+  Yc25LbpCs8n8
+  Yc25D8DwtHaarS2LH
+  Yc25D8GrlmVRLNonUni
+Confusion matrix of t_44_post_24h.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	921	79	0	77	923	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc7D8ArmSigma
+  Yc25D8HistPerc10
+  Yc25D8HistPerc90
+  Yc25LbpCs8n9
+  Yc25D8GlcmV1Entropy
+  Yc25LbpOc4n10
+Confusion matrix of t_45_baseline.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	922	78	0	79	921	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8HistPerc01
+  Yc25D8GlcmH1SumEntrp
+  Yc25D8GlcmV1Entropy
+  Yc25LbpCs8n13
+  Yc25LbpCs8n5
+  Yc7D8GrlmVMGLevNonUn
+Confusion matrix of t_45_post_15min.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	938	62	0	107	893	
+Classifier: MzLinearClassifiers2013
+Classes:
+  0 !
+  1 other
+  2 tumour
+Features required:
+  Yc15D8HistPerc10
+  Yc15D8GlcmV1ClustShd
+  Yc25D8GlcmV1SumVarnc
+  YD8Gab12H12Mag
+  Yc25D8GrlmVRLNonUni
+  Yc25LbpCs8n2
+Confusion matrix of t_45_post_24h.csv
+!>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+0	0	0	0	908	92	0	104	896	

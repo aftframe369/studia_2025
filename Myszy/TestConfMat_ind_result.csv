@@ -1,0 +1,388 @@
+
+PLIK test_lda6D.txt
+Conf_matrix_of 	 !>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+t_21_baseline.csv	0	0	0	0	914	86	0	92	908	
+t_21_post_15min.csv	0	0	0	0	970	30	0	36	964	
+t_22_baseline.csv	0	0	0	0	955	45	0	63	937	
+t_22_post_15min.csv	0	0	0	0	957	43	0	25	975	
+t_23_baseline.csv	0	0	0	0	907	93	0	80	920	
+t_23_post_15min.csv	0	0	0	0	932	68	0	43	957	
+t_24_baseline.csv	0	0	0	0	922	78	0	57	943	
+t_24_post_15min.csv	0	0	0	0	971	29	0	32	968	
+t_25_baseline.csv	0	0	0	0	899	101	0	70	930	
+t_25_post_15min.csv	0	0	0	0	928	72	0	76	924	
+t_31_baseline.csv	0	0	0	0	912	88	0	86	914	
+t_31_post_15min.csv	0	0	0	0	913	87	0	109	891	
+t_31_post_24h.csv	0	0	0	0	870	130	0	71	929	
+t_32_baseline.csv	0	0	0	0	913	87	0	111	889	
+t_32_post_15min.csv	0	0	0	0	923	77	0	86	914	
+t_32_post_24h.csv	0	0	0	0	936	64	0	76	924	
+t_33_baseline.csv	0	0	0	0	923	77	0	85	915	
+t_33_post_15min.csv	0	0	0	0	912	88	0	77	923	
+t_33_post_24h.csv	0	0	0	0	923	77	0	65	935	
+t_34_baseline.csv	0	0	0	0	907	93	0	83	917	
+t_34_post_15min.csv	0	0	0	0	942	58	0	81	919	
+t_34_post_24h.csv	0	0	0	0	922	78	0	78	922	
+t_35_baseline.csv	0	0	0	0	901	99	0	105	895	
+t_35_post_15min.csv	0	0	0	0	900	100	0	107	893	
+t_35_post_24h.csv	0	0	0	0	905	95	0	143	857	
+t_41_baseline.csv	0	0	0	0	917	83	0	125	875	
+t_41_post_15min.csv	0	0	0	0	919	81	0	93	907	
+t_41_post_24h.csv	0	0	0	0	886	114	0	122	878	
+t_42_baseline.csv	0	0	0	0	896	104	0	102	898	
+t_42_post_15min.csv	0	0	0	0	981	19	0	21	979	
+t_42_post_24h.csv	0	0	0	0	893	107	0	81	919	
+t_43_baseline.csv	0	0	0	0	893	107	0	98	902	
+t_43_post_15min.csv	0	0	0	0	833	167	0	121	879	
+t_43_post_24h.csv	0	0	0	0	913	87	0	91	909	
+t_44_baseline.csv	0	0	0	0	925	75	0	88	912	
+t_44_post_15min.csv	0	0	0	0	942	58	0	77	923	
+t_44_post_24h.csv	0	0	0	0	921	79	0	77	923	
+t_45_baseline.csv	0	0	0	0	922	78	0	79	921	
+t_45_post_15min.csv	0	0	0	0	938	62	0	107	893	
+t_45_post_24h.csv	0	0	0	0	908	92	0	104	896	
+
+
+PLIK test_lda7D.txt
+Conf_matrix_of 	 !>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+t_21_baseline.csv	0	0	0	0	932	68	0	80	920	
+t_21_post_15min.csv	0	0	0	0	969	31	0	30	970	
+t_22_baseline.csv	0	0	0	0	951	49	0	42	958	
+t_22_post_15min.csv	0	0	0	0	971	29	0	23	977	
+t_23_baseline.csv	0	0	0	0	918	82	0	71	929	
+t_23_post_15min.csv	0	0	0	0	930	70	0	43	957	
+t_24_baseline.csv	0	0	0	0	924	76	0	74	926	
+t_24_post_15min.csv	0	0	0	0	968	32	0	15	985	
+t_25_baseline.csv	0	0	0	0	892	108	0	75	925	
+t_25_post_15min.csv	0	0	0	0	940	60	0	68	932	
+t_31_baseline.csv	0	0	0	0	921	79	0	84	916	
+t_31_post_15min.csv	0	0	0	0	915	85	0	103	897	
+t_31_post_24h.csv	0	0	0	0	885	115	0	83	917	
+t_32_baseline.csv	0	0	0	0	904	96	0	116	884	
+t_32_post_15min.csv	0	0	0	0	944	56	0	72	928	
+t_32_post_24h.csv	0	0	0	0	941	59	0	74	926	
+t_33_baseline.csv	0	0	0	0	927	73	0	89	911	
+t_33_post_15min.csv	0	0	0	0	906	94	0	73	927	
+t_33_post_24h.csv	0	0	0	0	929	71	0	70	930	
+t_34_baseline.csv	0	0	0	0	921	79	0	70	930	
+t_34_post_15min.csv	0	0	0	0	951	49	0	75	925	
+t_34_post_24h.csv	0	0	0	0	922	78	0	68	932	
+t_35_baseline.csv	0	0	0	0	895	105	0	97	903	
+t_35_post_15min.csv	0	0	0	0	914	86	0	93	907	
+t_35_post_24h.csv	0	0	0	0	912	88	0	137	863	
+t_41_baseline.csv	0	0	0	0	924	76	0	110	890	
+t_41_post_15min.csv	0	0	0	0	925	75	0	85	915	
+t_41_post_24h.csv	0	0	0	0	884	116	0	108	892	
+t_42_baseline.csv	0	0	0	0	905	95	0	111	889	
+t_42_post_15min.csv	0	0	0	0	983	17	0	14	986	
+t_42_post_24h.csv	0	0	0	0	910	90	0	72	928	
+t_43_baseline.csv	0	0	0	0	897	103	0	94	906	
+t_43_post_15min.csv	0	0	0	0	842	158	0	111	889	
+t_43_post_24h.csv	0	0	0	0	890	110	0	80	920	
+t_44_baseline.csv	0	0	0	0	932	68	0	77	923	
+t_44_post_15min.csv	0	0	0	0	949	51	0	78	922	
+t_44_post_24h.csv	0	0	0	0	923	77	0	70	930	
+t_45_baseline.csv	0	0	0	0	933	67	0	85	915	
+t_45_post_15min.csv	0	0	0	0	944	56	0	108	892	
+t_45_post_24h.csv	0	0	0	0	914	86	0	97	903	
+
+
+PLIK test_lda8D.txt
+Conf_matrix_of 	 !>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+t_21_baseline.csv	0	0	0	0	935	65	0	84	916	
+t_21_post_15min.csv	0	0	0	0	974	26	0	18	982	
+t_22_baseline.csv	0	0	0	0	967	33	0	59	941	
+t_22_post_15min.csv	0	0	0	0	966	34	0	19	981	
+t_23_baseline.csv	0	0	0	0	936	64	0	71	929	
+t_23_post_15min.csv	0	0	0	0	932	68	0	45	955	
+t_24_baseline.csv	0	0	0	0	939	61	0	45	955	
+t_24_post_15min.csv	0	0	0	0	975	25	0	17	983	
+t_25_baseline.csv	0	0	0	0	908	92	0	75	925	
+t_25_post_15min.csv	0	0	0	0	946	54	0	67	933	
+t_31_baseline.csv	0	0	0	0	934	66	0	68	932	
+t_31_post_15min.csv	0	0	0	0	903	97	0	100	900	
+t_31_post_24h.csv	0	0	0	0	877	123	0	100	900	
+t_32_baseline.csv	0	0	0	0	904	96	0	122	878	
+t_32_post_15min.csv	0	0	0	0	947	53	0	96	904	
+t_32_post_24h.csv	0	0	0	0	943	57	0	64	936	
+t_33_baseline.csv	0	0	0	0	922	78	0	77	923	
+t_33_post_15min.csv	0	0	0	0	913	87	0	79	921	
+t_33_post_24h.csv	0	0	0	0	939	61	0	68	932	
+t_34_baseline.csv	0	0	0	0	925	75	0	67	933	
+t_34_post_15min.csv	0	0	0	0	955	45	0	95	905	
+t_34_post_24h.csv	0	0	0	0	926	74	0	68	932	
+t_35_baseline.csv	0	0	0	0	904	96	0	102	898	
+t_35_post_15min.csv	0	0	0	0	915	85	0	88	912	
+t_35_post_24h.csv	0	0	0	0	918	82	0	114	886	
+t_41_baseline.csv	0	0	0	0	926	74	0	100	900	
+t_41_post_15min.csv	0	0	0	0	920	80	0	82	918	
+t_41_post_24h.csv	0	0	0	0	885	115	0	89	911	
+t_42_baseline.csv	0	0	0	0	914	86	0	95	905	
+t_42_post_15min.csv	0	0	0	0	979	21	0	17	983	
+t_42_post_24h.csv	0	0	0	0	914	86	0	72	928	
+t_43_baseline.csv	0	0	0	0	888	112	0	76	924	
+t_43_post_15min.csv	0	0	0	0	851	149	0	116	884	
+t_43_post_24h.csv	0	0	0	0	889	111	0	73	927	
+t_44_baseline.csv	0	0	0	0	932	68	0	73	927	
+t_44_post_15min.csv	0	0	0	0	945	55	0	76	924	
+t_44_post_24h.csv	0	0	0	0	931	69	0	68	932	
+t_45_baseline.csv	0	0	0	0	951	49	0	59	941	
+t_45_post_15min.csv	0	0	0	0	945	55	0	102	898	
+t_45_post_24h.csv	0	0	0	0	909	91	0	91	909	
+
+
+PLIK test_svm400D.txt
+Conf_matrix_of 	 !>!	!>other	!>tumour	other>!	other>other	other>tumour	tumour>!	tumour>other	tumour>tumour	
+t_21_baseline.csv	0	0	0	0	1000	0	0	0	1000	
+t_21_post_15min.csv	0	0	0	0	999	1	0	1	999	
+t_22_baseline.csv	0	0	0	0	996	4	0	2	998	
+t_22_post_15min.csv	0	0	0	0	998	2	0	0	1000	
+t_23_baseline.csv	0	0	0	0	995	5	0	1	999	
+t_23_post_15min.csv	0	0	0	0	996	4	0	4	996	
+t_24_baseline.csv	0	0	0	0	998	2	0	0	1000	
+t_24_post_15min.csv	0	0	0	0	1000	0	0	1	999	
+t_25_baseline.csv	0	0	0	0	993	7	0	2	998	
+t_25_post_15min.csv	0	0	0	0	995	5	0	5	995	
+t_31_baseline.csv	0	0	0	0	989	11	0	1	999	
+t_31_post_15min.csv	0	0	0	0	984	16	0	7	993	
+t_31_post_24h.csv	0	0	0	0	982	18	0	8	992	
+t_32_baseline.csv	0	0	0	0	983	17	0	9	991	
+t_32_post_15min.csv	0	0	0	0	993	7	0	7	993	
+t_32_post_24h.csv	0	0	0	0	992	8	0	15	985	
+t_33_baseline.csv	0	0	0	0	988	12	0	14	986	
+t_33_post_15min.csv	0	0	0	0	981	19	0	8	992	
+t_33_post_24h.csv	0	0	0	0	986	14	0	7	993	
+t_34_baseline.csv	0	0	0	0	981	19	0	13	987	
+t_34_post_15min.csv	0	0	0	0	990	10	0	13	987	
+t_34_post_24h.csv	0	0	0	0	987	13	0	5	995	
+t_35_baseline.csv	0	0	0	0	981	19	0	13	987	
+t_35_post_15min.csv	0	0	0	0	983	17	0	7	993	
+t_35_post_24h.csv	0	0	0	0	983	17	0	12	988	
+t_41_baseline.csv	0	0	0	0	978	22	0	6	994	
+t_41_post_15min.csv	0	0	0	0	973	27	0	6	994	
+t_41_post_24h.csv	0	0	0	0	968	32	0	12	988	
+t_42_baseline.csv	0	0	0	0	991	9	0	7	993	
+t_42_post_15min.csv	0	0	0	0	997	3	0	6	994	
+t_42_post_24h.csv	0	0	0	0	990	10	0	14	986	
+t_43_baseline.csv	0	0	0	0	982	18	0	3	997	
+t_43_post_15min.csv	0	0	0	0	980	20	0	11	989	
+t_43_post_24h.csv	0	0	0	0	992	8	0	6	994	
+t_44_baseline.csv	0	0	0	0	981	19	0	13	987	
+t_44_post_15min.csv	0	0	0	0	991	9	0	11	989	
+t_44_post_24h.csv	0	0	0	0	989	11	0	10	990	
+t_45_baseline.csv	0	0	0	0	990	10	0	8	992	
+t_45_post_15min.csv	0	0	0	0	977	23	0	17	983	
+t_45_post_24h.csv	0	0	0	0	976	24	0	19	981	
+
+
+PLIK test_vsch4D.txt
+Conf_matrix_of 	 !>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+t_21_baseline.csv	0	0	88	912	998	2	
+t_21_post_15min.csv	0	0	8	992	997	3	
+t_22_baseline.csv	0	0	42	958	995	5	
+t_22_post_15min.csv	0	0	32	968	999	1	
+t_23_baseline.csv	0	0	82	918	970	30	
+t_23_post_15min.csv	0	0	115	885	973	27	
+t_24_baseline.csv	0	0	57	943	992	8	
+t_24_post_15min.csv	0	0	63	937	995	5	
+t_25_baseline.csv	0	0	92	908	990	10	
+t_25_post_15min.csv	0	0	86	914	983	17	
+t_31_baseline.csv	0	0	113	887	991	9	
+t_31_post_15min.csv	0	0	136	864	954	46	
+t_31_post_24h.csv	0	0	91	909	962	38	
+t_32_baseline.csv	0	0	59	941	972	28	
+t_32_post_15min.csv	0	0	64	936	969	31	
+t_32_post_24h.csv	0	0	125	875	978	22	
+t_33_baseline.csv	0	0	133	867	979	21	
+t_33_post_15min.csv	0	0	126	874	989	11	
+t_33_post_24h.csv	0	0	148	852	988	12	
+t_34_baseline.csv	0	0	78	922	968	32	
+t_34_post_15min.csv	0	0	126	874	962	38	
+t_34_post_24h.csv	0	0	143	857	986	14	
+t_35_baseline.csv	0	0	114	886	984	16	
+t_35_post_15min.csv	0	0	98	902	985	15	
+t_35_post_24h.csv	0	0	142	858	986	14	
+t_41_baseline.csv	0	0	87	913	954	46	
+t_41_post_15min.csv	0	0	133	867	966	34	
+t_41_post_24h.csv	0	0	119	881	961	39	
+t_42_baseline.csv	0	0	153	847	997	3	
+t_42_post_15min.csv	0	0	77	923	994	6	
+t_42_post_24h.csv	0	0	64	936	991	9	
+t_43_baseline.csv	0	0	124	876	947	53	
+t_43_post_15min.csv	0	0	101	899	962	38	
+t_43_post_24h.csv	0	0	79	921	968	32	
+t_44_baseline.csv	0	0	148	852	986	14	
+t_44_post_15min.csv	0	0	125	875	975	25	
+t_44_post_24h.csv	0	0	107	893	992	8	
+t_45_baseline.csv	0	0	108	892	988	12	
+t_45_post_15min.csv	0	0	134	866	983	17	
+t_45_post_24h.csv	0	0	124	876	976	24	
+
+
+PLIK test_vsch5D.txt
+W pliku są błędne nagłówki
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	\n\n
+Conf_matrix_of 	 !>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+t_21_baseline.csv	0	0	77	923	993	7	
+t_21_post_15min.csv	0	0	2	998	1000	
+t_22_baseline.csv	0	0	19	981	998	2	
+t_22_post_15min.csv	0	0	12	988	999	1	
+t_23_baseline.csv	0	0	161	839	983	17	
+t_23_post_15min.csv	0	0	242	758	984	16	
+t_24_baseline.csv	0	0	11	989	990	10	
+t_24_post_15min.csv	0	0	7	993	996	4	
+t_25_baseline.csv	0	0	39	961	994	6	
+t_25_post_15min.csv	0	0	142	858	987	13	
+t_31_baseline.csv	0	0	99	901	997	3	
+t_31_post_15min.csv	0	0	252	748	985	15	
+t_31_post_24h.csv	0	0	212	788	991	9	
+t_32_baseline.csv	0	0	267	733	985	15	
+t_32_post_15min.csv	0	0	149	851	986	14	
+t_32_post_24h.csv	0	0	157	843	981	19	
+t_33_baseline.csv	0	0	220	780	993	7	
+t_33_post_15min.csv	0	0	201	799	994	6	
+t_33_post_24h.csv	0	0	239	761	997	3	
+t_34_baseline.csv	0	0	118	882	977	23	
+t_34_post_15min.csv	0	0	161	839	989	11	
+t_34_post_24h.csv	0	0	201	799	991	9	
+t_35_baseline.csv	0	0	190	810	993	7	
+t_35_post_15min.csv	0	0	142	858	997	3	
+t_35_post_24h.csv	0	0	251	749	996	4	
+t_41_baseline.csv	0	0	163	837	983	17	
+t_41_post_15min.csv	0	0	260	740	985	15	
+t_41_post_24h.csv	0	0	231	769	978	22	
+t_42_baseline.csv	0	0	84	916	999	1	
+t_42_post_15min.csv	0	0	64	936	999	1	
+t_42_post_24h.csv	0	0	34	966	996	4	
+t_43_baseline.csv	0	0	273	727	984	16	
+t_43_post_15min.csv	0	0	384	616	994	6	
+t_43_post_24h.csv	0	0	237	763	982	18	
+t_44_baseline.csv	0	0	348	652	994	6	
+t_44_post_15min.csv	0	0	184	816	989	11	
+t_44_post_24h.csv	0	0	243	757	998	2	
+t_45_baseline.csv	0	0	197	803	996	4	
+t_45_post_15min.csv	0	0	132	868	996	4	
+t_45_post_24h.csv	0	0	217	783	988	12	
+
+
+PLIK test_vsch6D.txt
+W pliku są błędne nagłówki
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+!>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	\n\n
+Conf_matrix_of 	 !>!	!>tumour	tumour>!	tumour>tumour	other>!	other>tumour	
+t_21_baseline.csv	0	0	50	950	997	3	
+t_21_post_15min.csv	0	0	3	997	1000	
+t_22_baseline.csv	0	0	28	972	996	4	
+t_22_post_15min.csv	0	0	7	993	998	2	
+t_23_baseline.csv	0	0	329	671	998	2	
+t_23_post_15min.csv	0	0	347	653	997	3	
+t_24_baseline.csv	0	0	8	992	998	2	
+t_24_post_15min.csv	0	0	1	999	1000	
+t_25_baseline.csv	0	0	54	946	998	2	
+t_25_post_15min.csv	0	0	198	802	995	5	
+t_31_baseline.csv	0	0	136	864	1000	
+t_31_post_15min.csv	0	0	224	776	991	9	
+t_31_post_24h.csv	0	0	280	720	997	3	
+t_32_baseline.csv	0	0	292	708	994	6	
+t_32_post_15min.csv	0	0	208	792	992	8	
+t_32_post_24h.csv	0	0	265	735	996	4	
+t_33_baseline.csv	0	0	300	700	994	6	
+t_33_post_15min.csv	0	0	348	652	998	2	
+t_33_post_24h.csv	0	0	286	714	999	1	
+t_34_baseline.csv	0	0	258	742	987	13	
+t_34_post_15min.csv	0	0	251	749	990	10	
+t_34_post_24h.csv	0	0	436	564	996	4	
+t_35_baseline.csv	0	0	282	718	996	4	
+t_35_post_15min.csv	0	0	139	861	998	2	
+t_35_post_24h.csv	0	0	362	638	997	3	
+t_41_baseline.csv	0	0	300	700	989	11	
+t_41_post_15min.csv	0	0	378	622	996	4	
+t_41_post_24h.csv	0	0	332	668	984	16	
+t_42_baseline.csv	0	0	88	912	999	1	
+t_42_post_15min.csv	0	0	80	920	999	1	
+t_42_post_24h.csv	0	0	29	971	1000	
+t_43_baseline.csv	0	0	382	618	991	9	
+t_43_post_15min.csv	0	0	483	517	998	2	
+t_43_post_24h.csv	0	0	333	667	994	6	
+t_44_baseline.csv	0	0	401	599	997	3	
+t_44_post_15min.csv	0	0	137	863	997	3	
+t_44_post_24h.csv	0	0	193	807	998	2	
+t_45_baseline.csv	0	0	193	807	998	2	
+t_45_post_15min.csv	0	0	147	853	998	2	
+t_45_post_24h.csv	0	0	253	747	994	6	
+
