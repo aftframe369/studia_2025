@@ -124,165 +124,168 @@ def wartosc_f_celu(p, c):
     x, y = p
     return x*c[0]+y*c[1]
 
-
-f = "10a+10b"
-s1 = "-1a+6b<=60"
-s2 = "5a+2b<=24"
-s3 = "4a+ 1b>=8"
-s4 = "1a+ 1b<=4"
-
-ciagi_ograniczen = [s1, s2, s3, s4]
-
-c_celu = parser_funkcji_celu(f)
-
-# gradient to wspolczynniki postaci kanonicznej
-grad_f = c_celu
-
-ograniczenia = []
-for i in ciagi_ograniczen:
-    ograniczenia.append(ograniczenie.from_string(i))
-
-proste_prostopadle_do_grad = []
-for s in ograniczenia:
-    a, _ = s.get_wsp_liniowe()
-    tg_grad = grad_f[1]/grad_f[0]
-    if a == -1/tg_grad:
-        proste_prostopadle_do_grad.append(s)
-
-# znajdzmy wszystkie punkty przeciecia funkcji ograniczen z osiami i ze soba
-punkty = []
-for indx, si in enumerate(ograniczenia):
-    px0, py0 = si.przeciecie_z_x0y0()
-    if min(px0) >= 0:
-        punkty.append(px0)
-    if min(py0) >= 0:
-        punkty.append(py0)
-
-    for indx, sj in enumerate(ograniczenia):
-        if si.a != sj.a:
-            x, y = si.znajdz_przeciecie(sj)
-            if x >= 0 and y >= 0:
-                punkty.append((x, y))
-
-# odrzucmy punkty nie spełniające ograniczeń
-p_do_sprawdzenia = punkty
-punkty = []
-
-for p in p_do_sprawdzenia:
-    flag = True
+def solve(c_celu, ograniczenia):
+     # gradient f liniowej to współczynniki f celu
+    grad_f = c_celu
+    proste_prostopadle_do_grad = []
     for s in ograniczenia:
-        if not s.czy_spelnia_ograniczenie(p):
-            flag = False
-            continue
-    if flag:
-        punkty.append(p)
+        a, _ = s.get_wsp_liniowe()
+        tg_grad = grad_f[1]/grad_f[0]
+        if a == -1/tg_grad:
+            proste_prostopadle_do_grad.append(s)
 
-# znajdzmy punkt o najwiekszym dystansie od zera wzdluz gradientu
-max_d = -10
-rozwiazania = []
+    # znajdzmy wszystkie punkty przeciecia funkcji ograniczen z osiami i ze soba
+    punkty = []
+    for indx, si in enumerate(ograniczenia):
+        px0, py0 = si.przeciecie_z_x0y0()
+        if min(px0) >= 0:
+            punkty.append(px0)
+        if min(py0) >= 0:
+            punkty.append(py0)
 
-punkty = np.asarray(punkty)
-x_max = np.max(punkty[:, 0])
-x_min = np.min(punkty[:, 0])
-y_max = np.max(punkty[:, 1])
+        for indx, sj in enumerate(ograniczenia):
+            if si.a != sj.a:
+                x, y = si.znajdz_przeciecie(sj)
+                if x >= 0 and y >= 0:
+                    punkty.append((x, y))
 
-for p in punkty:
-    a, b = f_prostopadla_do_wektora_w_punkcie(grad_f, p)
-    # przejście z postaci liniowej na kanoniczną A=-a B=1 C=-b ...
-    d = dystans_prostej_od_0(-a, 1, -b)
-    if d > max_d:
-        rozwiazania = [p]
-        max_d = d
-    elif d == max_d:
-        rozwiazania.append(p)
+    # odrzucmy punkty nie spełniające ograniczeń
+    p_do_sprawdzenia = punkty
+    punkty = []
 
-proste_rozwiazania = []
-for s in proste_prostopadle_do_grad:
-    if max_d == s.dystans_od_0():
-        proste_rozwiazania.append(s)
+    for p in p_do_sprawdzenia:
+        flag = True
+        for s in ograniczenia:
+            if not s.czy_spelnia_ograniczenie(p):
+                flag = False
+                continue
+        if flag:
+            punkty.append(p)
 
-# rysuje OX
-x = np.linspace(0-x_max*0.1, x_max+100, 2)
-y = 0*x
-plt.plot(x, y, c="black")
+    # znajdzmy punkt o najwiekszym dystansie od zera wzdluz gradientu
+    max_d = -10
+    rozwiazania = []
 
-# rysuje OY
-y = np.linspace(0-y_max*0.1, y_max+100, 2)
-x = 0*y
-plt.plot(x, y, c="black")
+    punkty = np.asarray(punkty)
+    x_max = np.max(punkty[:, 0])
+    x_min = np.min(punkty[:, 0])
+    y_max = np.max(punkty[:, 1])
 
-# rysuje f ograniczen
-for s in ograniczenia:
-    a, b = s.get_wsp_liniowe()
+    for p in punkty:
+        a, b = f_prostopadla_do_wektora_w_punkcie(grad_f, p)
+        # przejście z postaci liniowej na kanoniczną A=-a B=1 C=-b ...
+        d = dystans_prostej_od_0(-a, 1, -b)
+        if d > max_d:
+            rozwiazania = [p]
+            max_d = d
+        elif d == max_d:
+            rozwiazania.append(p)
+
+    proste_rozwiazania = []
+    for s in proste_prostopadle_do_grad:
+        if max_d == s.dystans_od_0():
+            proste_rozwiazania.append(s)
+
+    # rysuje OX
     x = np.linspace(0-x_max*0.1, x_max+100, 2)
-    y = a*x+b
-    plt.plot(x, y)
+    y = 0*x
+    plt.plot(x, y, c="black")
 
-#rysuje punkty
-for p in punkty:
-    plt.scatter(*p)
-    x, y = p
-    plt.text(x, y, f"({x}, {y}), z = {wartosc_f_celu(p, c_celu)}", size=9)
+    # rysuje OY
+    y = np.linspace(0-y_max*0.1, y_max+100, 2)
+    x = 0*y
+    plt.plot(x, y, c="black")
 
-# wyznaczmy górną i dolną granicę obszaru rozwiazan
-x = np.linspace(x_min, x_max+x_max*0.1, 100)
-lower_bound = np.zeros_like(x)
-upper_bound = np.full_like(x, y_max)
+    # rysuje f ograniczen
+    for s in ograniczenia:
+        a, b = s.get_wsp_liniowe()
+        x = np.linspace(0-x_max*0.1, x_max+100, 2)
+        y = a*x+b
+        plt.plot(x, y)
 
-for indx, x0 in enumerate(x):
-    for _, s in enumerate(ograniczenia):
-        if s.sign == "greater":
-            val = s.get_value(x0)
-            if val >= lower_bound[indx]:
-                lower_bound[indx] = val
+    #rysuje punkty
+    for p in punkty:
+        plt.scatter(*p)
+        x, y = p
+        plt.text(x-x_max*0.05, y+y_max*0.05, f"({x:.3g}, {y:.3g}), z = {wartosc_f_celu(p, c_celu):3g}", size=9)
 
-        if s.sign == "lower":
-            val = s.get_value(x0)
-            if val <= upper_bound[indx]:
-                if val < 0:
-                    upper_bound[indx] = 0
-                else:
-                    upper_bound[indx] = val
+    # wyznaczmy górną i dolną granicę obszaru rozwiazan
+    x = np.linspace(x_min, x_max+x_max*0.1, 100)
+    lower_bound = np.zeros_like(x)
+    upper_bound = np.full_like(x, y_max)
 
-plt.fill_between(x, lower_bound, upper_bound, color="teal", alpha=0.3)
+    for indx, x0 in enumerate(x):
+        for _, s in enumerate(ograniczenia):
+            if s.sign == "greater":
+                val = s.get_value(x0)
+                if val >= lower_bound[indx]:
+                    lower_bound[indx] = val
 
-flag = 0
-for p in rozwiazania:
-    if not flag:
-        label = "Rozwiązanie"
-        flag=1
-    else:
-        label = None
-    plt.scatter(*p, s=100, c="red", label = label)
+            if s.sign == "lower":
+                val = s.get_value(x0)
+                if val <= upper_bound[indx]:
+                    if val < 0:
+                        upper_bound[indx] = 0
+                    else:
+                        upper_bound[indx] = val
+
+    plt.fill_between(x, lower_bound, upper_bound, color="teal", alpha=0.3)
+
+    flag = 0
+    for p in rozwiazania:
+        if not flag:
+            label = "Rozwiązanie"
+            flag=1
+        else:
+            label = None
+        plt.scatter(*p, s=100, c="red", label = label)
 
 
-for s in proste_rozwiazania:
-    a, b = s.get_wsp_liniowe()
-    x = np.linspace(0-x_max*0.1, x_max+100, 2)
-    y = a*x+b
-    plt.plot(x, y, c="red", label="funkcja rozwiazan")
+    for s in proste_rozwiazania:
+        a, b = s.get_wsp_liniowe()
+        x = np.linspace(0-x_max*0.1, x_max+100, 2)
+        y = a*x+b
+        plt.plot(x, y, c="red", label="funkcja rozwiazan")
 
-# rysuje strzałkę kierunku gradientu
-center_x = x_max//2
-center_y = y_max//2
-grad_len = np.sqrt(grad_f[0]**2 + grad_f[1]**2)
-grad_x = [center_x, center_x+grad_f[0]/grad_len*x_max*0.3]
-grad_y = [center_y, center_y+grad_f[1]/grad_len*y_max*0.3]
-plt.annotate("", xytext=(grad_x[0], grad_y[0]),
-             xy=(grad_x[1], grad_y[1]),
-             arrowprops=dict(arrowstyle="->"))
-plt.text(center_x+0/1*x_max, center_y+0.1*y_max, "$\\nabla f$")
+    # rysuje strzałkę kierunku gradientu
+    center_x = x_max//2
+    center_y = y_max//2
+    grad_len = np.sqrt(grad_f[0]**2 + grad_f[1]**2)
+    grad_x = [center_x, center_x+grad_f[0]/grad_len*x_max*0.3]
+    grad_y = [center_y, center_y+grad_f[1]/grad_len*y_max*0.3]
+    plt.annotate("", xytext=(grad_x[0], grad_y[0]),
+                 xy=(grad_x[1], grad_y[1]),
+                 arrowprops=dict(arrowstyle="->"))
+    plt.text(center_x+0/1*x_max, center_y+0.1*y_max, "$\\nabla f$")
 
-plt.ylim(0-0.1*y_max, y_max+0.1*y_max)
-plt.xlim(0-0.1*x_max, x_max+0.1*x_max)
+    plt.ylim(0-0.1*y_max, y_max+0.1*y_max)
+    plt.xlim(0-0.1*x_max, x_max+0.1*x_max)
 
-# lim = max([max_x, max_y])
-# plt.ylim(0-0.1*lim, lim+0.1*lim)
-# plt.xlim(0-0.1*lim, lim+0.1*lim)
+    # lim = max([max_x, max_y])
+    # plt.ylim(0-0.1*lim, lim+0.1*lim)
+    # plt.xlim(0-0.1*lim, lim+0.1*lim)
 
-plt.grid()
-plt.legend()
-plt.show()
+    plt.grid()
+    plt.legend()
+    plt.show()
 
-print(rozwiazania)
-print(proste_rozwiazania)
+    print(rozwiazania)
+    print(proste_rozwiazania)
+
+if __name__ == "__main__":
+    f = "10a+10b"
+    s1 = "-1a+6b<=60"
+    s2 = "5a+2b<=24"
+    s3 = "4a+ 1b>=8"
+    s4 = "1a+ 1b<=4"
+
+    ciagi_ograniczen = [s1, s2, s3, s4]
+
+    c_celu = parser_funkcji_celu(f)
+
+    ograniczenia = []
+    for i in ciagi_ograniczen:
+        ograniczenia.append(ograniczenie.from_string(i))
+    solve(c_celu, ograniczenia)
+
+
