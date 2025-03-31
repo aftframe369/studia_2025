@@ -89,6 +89,15 @@ class ograniczenie:
         me.parser_ograniczen(text)
         return me
 
+    @classmethod
+    def from_coeffs(cls, A, B, C, sign):
+        me = cls()
+        me.A = A
+        me.B = B
+        me.C = C
+        me.sign = sign
+        return me
+
     def __repr__(self) -> str:
         return self.f_kanoniczna()
 
