@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 
 
-def load(path):
+def load(path, delimiter=";"):
     """
     Funkcja powinna wczytywać plik CSV, którego lokalizacja wskazywana jest przez argument
     oraz zwracać dwie tablice NumPy o rozmiarach Nxn oraz N, gdzie N to liczba obiektów,
@@ -15,7 +15,17 @@ def load(path):
     zaweira n+1 liczb odpowiadających wpierw kolejnym cechom obiektu (n wartości) i jego
     etykiecie (1 wartość). Liczby w każdej linii pliku CSV oddzielone są średnikami.
     """
-    pass
+    import csv
+    with open(path, "r") as file:
+        reader = csv.reader(file, delimiter=delimiter)
+        data = []
+        labels = []
+        for row in reader:
+            a, b, label = row
+            data.append((float(a), float(b)))
+            labels.append(float(label))
+
+    return np.asarray(data), np.asarray(labels)
 
 
 def plot_voronoi_diagram(X, y_true, y_pred):
