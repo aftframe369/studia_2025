@@ -127,6 +127,7 @@ def wartosc_f_celu(p, c):
 def solve(c_celu, ograniczenia):
      # gradient f liniowej to współczynniki f celu
     grad_f = c_celu
+
     proste_prostopadle_do_grad = []
     for s in ograniczenia:
         a, _ = s.get_wsp_liniowe()
@@ -186,6 +187,8 @@ def solve(c_celu, ograniczenia):
         if max_d == s.dystans_od_0():
             proste_rozwiazania.append(s)
 
+    # lista colorów bez czerwonego, aby zarezerwować go dla rozwiązań
+    colors = ["purple","green","blue","pink","brown","light blue","teal","orange","light green","magenta","yellow","sky blue","grey","lime green","light purple","violet","dark green","turquoise","lavender","dark blue","tan","cyan","aqua","forest green","mauve","dark purple","bright green","maroon","olive","salmon","beige","royal blue","navy blue","lilac","black","hot pink"]
     # rysuje OX
     x = np.linspace(0-x_max*0.1, x_max+100, 2)
     y = 0*x
@@ -197,15 +200,15 @@ def solve(c_celu, ograniczenia):
     plt.plot(x, y, c="black")
 
     # rysuje f ograniczen
-    for s in ograniczenia:
+    for i, s in enumerate(ograniczenia):
         a, b = s.get_wsp_liniowe()
         x = np.linspace(0-x_max*0.1, x_max+100, 2)
         y = a*x+b
-        plt.plot(x, y)
+        plt.plot(x, y, c="xkcd:"+colors[i%len(colors)])
 
     #rysuje punkty
-    for p in punkty:
-        plt.scatter(*p)
+    for i, p in enumerate(punkty):
+        plt.scatter(*p, c="black")
         x, y = p
         plt.text(x-x_max*0.05, y+y_max*0.05, f"({x:.3g}, {y:.3g}), z = {wartosc_f_celu(p, c_celu):3g}", size=9)
 
@@ -240,7 +243,6 @@ def solve(c_celu, ograniczenia):
             label = None
         plt.scatter(*p, s=100, c="red", label = label)
 
-
     for s in proste_rozwiazania:
         a, b = s.get_wsp_liniowe()
         x = np.linspace(0-x_max*0.1, x_max+100, 2)
@@ -273,7 +275,7 @@ def solve(c_celu, ograniczenia):
     print(proste_rozwiazania)
 
 if __name__ == "__main__":
-    f = "10a+10b"
+    f = "20a-10b"
     s1 = "-1a+6b<=60"
     s2 = "5a+2b<=24"
     s3 = "4a+ 1b>=8"
@@ -282,7 +284,6 @@ if __name__ == "__main__":
     ciagi_ograniczen = [s1, s2, s3, s4]
 
     c_celu = parser_funkcji_celu(f)
-
     ograniczenia = []
     for i in ciagi_ograniczen:
         ograniczenia.append(ograniczenie.from_string(i))
